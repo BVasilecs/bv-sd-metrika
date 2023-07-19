@@ -10,59 +10,91 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>   
-    <section>
-        <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-            <div class="banner">
-                <p>Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
+<body>
+    <header>
+        <a class="logo-link" href="/">
+            <img class="logo" src="resources/logo.png" alt="metrika-logo">
+        </a>
+        <nav class="nav">
+            <a href="#about-us" class="nav__link">О нас</a>
+            <a href="#projects" class="nav__link">Проекты</a>
+            <a href="#services" class="nav__link">Услуги</a>
+            <a href="#contacts" class="nav__link">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner-wrapper">
+            <h1>Современные и стильные интерьеры для комфортной жизни</h1>
+                <div class="banner">
+                    <p>Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
+                </div>
+        </section>
+        <section id="about-us">
+            <h2>О нас</h2>
+            <p>Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
+            <a href="">Посмотреть услуги</a>
+        </section>
+        <section id="projects" class="projects-wrapper">
+            <h2>Проекты</h2>
+                <ul class="projects">
+                    <li class="project">
+                        <img class="project__image" src="resources/project-pravoberezniy.png" alt="Изображение проекта Жк Правобережный">    
+                        <h3 class="project__title">Жк Правобережный — 112 м² — 2023</h3>
+                        <a href="" class="project__link">Подробнее →</a>
+                    </li>
+                    <li class="project">
+                        <img class="project__image" src="resources/project-norvezskiy.png" alt="Изображение проекта Жк Норвежский Парк">    
+                        <h3 class="project__title">Жк Норвежский Парк — 75 м² — 2023</h3>
+                        <a href="" class="project__link">Подробнее →</a>
+                    </li>
+                    <li class="project">
+                        <img class="project__image" src="resources/project-sosnovskiye-ozera.png" alt="Изображение проекта Жк Сосновские Озера">    
+                        <h3 class="project__title">Жк Сосновские Озера — 94 м² — 2022</h3>
+                        <a href="" class="project__link">Подробнее →</a>
+                    </li>
+                </ul>
+            <a class="projects-view-all-link" href="">Смотреть все проекты</a>
+        </section>
+        <section id="services" class="services">
+            <h2 class="services__title">Услуги</h2>
+                <ul>
+                    <li class="service">
+                        <img class="service__image" src="resources/planirovka.png" alt="Изображение услуг планировки">
+                        <h3 class="service__title">Планировочное решение — от 2500₽/м²</h3>
+                    </li>
+                    <li class="service">
+                        <img class="service__image" src="resources/design.png" alt="Изображение услуг дизайна проектов">
+                        <h3 class="service__title">Дизайн-проект — от 3000₽/м²</h3>
+                    </li>
+                    <li class="service">
+                        <img class="service__image" src="resources/nadzor.png" alt="Изображение услуг авторского надзора" >
+                        <h3 class="service__title">Авторский надзор — от 30 000₽ в месяц</h3>
+                    </li>
+                    <li class="service">
+                        <img class="service__image" src="resources/komplektaciya.png" alt="Изображение услуг комплектации">
+                        <h3 class="service__title">Комплектация — 5% от стоимости спецификации</h3>
+                    </li>
+                </ul>
+        </section>
+        <section class="project-two-room">
+            <p class="project-two-room__title">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+        </section>
+        <section id="contacts" class="contacts">
+            <div class="contacts-title-wrapper">
+                <h2 class="contacts-title">Контакты</h2>
             </div>
-    </section>
-    <section>
-        <h2>О нас</h2>
-        <p>Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-        <a href="">Посмотреть услуги</a>
-    </section>
-    <section>
-        <h2>Проекты</h2>
-            <ul class="projects">
-                <li class="project">
-                    <img class="project__image" src="resources/project-pravoberezniy.png" alt="Изображение проекта Жк Правобережный">    
-                    <h3 class="project__title">Жк Правобережный — 112 м² — 2023</h3>
-                    <a href="" class="project__link">Подробнее →</a>
-                </li>
-                <li class="project">
-                    <img class="project__image" src="resources/project-norvezskiy.png" alt="Изображение проекта Жк Норвежский Парк">    
-                    <h3 class="project__title">Жк Норвежский Парк — 75 м² — 2023</h3>
-                    <a href="" class="project__link">Подробнее →</a>
-                </li>
-                <li class="project">
-                    <img class="project__image" src="resources/project-sosnovskiye-ozera.png" alt="Изображение проекта Жк Сосновские Озера">    
-                    <h3 class="project__title">Жк Сосновские Озера — 94 м² — 2022</h3>
-                    <a href="" class="project__link">Подробнее →</a>
-                </li>
-            </ul>
-        <a class="projects-view-all-link" href="">Смотреть все проекты</a>
-    </section>
-    <section class="services">
-        <h2 class="services__title">Услуги</h2>
-            <ul>
-                <li class="service">
-                    <img class="service__image" src="resources/planirovka.png" alt="Изображение услуг планировки">
-                    <h3 class="service__title">Планировочное решение — от 2500₽/м²</h3>
-                </li>
-                <li class="service">
-                    <img class="service__image" src="resources/design.png" alt="Изображение услуг дизайна проектов">
-                    <h3 class="service__title">Дизайн-проект — от 3000₽/м²</h3>
-                </li>
-                <li class="service">
-                    <img class="service__image" src="resources/nadzor.png" alt="Изображение услуг авторского надзора" >
-                    <h3 class="service__title">Авторский надзор — от 30 000₽ в месяц</h3>
-                </li>
-                <li class="service">
-                    <img class="service__image" src="resources/komplektaciya.png" alt="Изображение услуг комплектации">
-                    <h3 class="service__title">Комплектация — 5% от стоимости спецификации</h3>
-                </li>
-            </ul>
-    </section>
+            <a class="tel" href="tel:+79358954535">+7 935  895-45-35</a>
+            <a class="mail" href="mailto:hello@mail.com">hello@mail.com</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-nav">
+            <a href="#about-us" class="footer-nav__link">О нас</a>
+            <a href="#projects" class="footer-nav__link">Проекты</a>
+            <a href="#services" class="footer-nav__link">Услуги</a>
+            <a href="#contacts" class="footer-nav__link">Контакты</a>
+        </div>
+        <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
+    </footer>
 </body>
 </html>
