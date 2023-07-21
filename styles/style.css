@@ -3,9 +3,8 @@ html {
 }
 
 body {    /* Добавил свойства, которые повторяются на протяжении всего документа */
-    width: 1400px;
     margin: 0 auto;
-    background: #F5F5F5;
+    min-width: 1400px;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     color: #121212;
@@ -17,6 +16,8 @@ body {    /* Добавил свойства, которые повторяют�
 }
 
 section { /* Контейнер для каждой группы элементов */
+    margin: 0 auto;
+    width: 1400px;
     padding: 75px 125px 75px 125px;
     background: #FFFFFF;
 }
@@ -24,7 +25,9 @@ section { /* Контейнер для каждой группы элемент�
 header {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     padding: 33px 125px 70px 125px;
+    width: 1400px;
     background: #FFFFFF;
 }
 
@@ -32,7 +35,6 @@ header {
     display: block;
     width: 126.89px;
     height: 21.42px;
-    text-decoration: none;
     background-color: #FFFFFF;
 }
 
@@ -42,7 +44,6 @@ header {
 }
 
 .nav__link {
-    display: inline-block;
     margin-right: 60px;
     width: auto;
     height: 25px;
@@ -188,6 +189,7 @@ a {    /* не совсем удобно, что часть стилей для 
 }
 
 .services {
+    width: 100%;
     padding-top: 150px;
     padding-bottom: 150px;
     background: #121212;
@@ -195,10 +197,15 @@ a {    /* не совсем удобно, что часть стилей для 
 }
 
 .services__title {
+    width: 1150px;
+    margin: 0 auto;
     margin-bottom: 35px;
 }
 
 .service {
+    width: 1150px;
+    min-width: 1150px;
+    margin: 0 auto;
     margin-bottom: 60px;
 }
 
