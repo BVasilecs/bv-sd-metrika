@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 33px 125px 70px 125px;
+    max-width: 1400px;
+    background: #FFFFFF;
+}
+
+.logo-link {
+    display: block;
+    max-width: 126.89px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__link {
+    margin-right: 60px;
+    width: auto;
+    
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+
+.nav__link:nth-last-child(1){
+    margin: 0;
+}
