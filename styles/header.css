@@ -34,6 +34,6 @@ header {
     border-radius: 0;
 }
 
-.nav__link:nth-last-child(1){
-    margin: 0;
+.nav__link:last-child {
+    margin: 0; 
 }

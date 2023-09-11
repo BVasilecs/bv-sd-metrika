@@ -9,26 +9,146 @@
 .services__title {
     max-width: 1150px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+}
+
+.services__list {
+    margin-bottom: 104px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 80.7px;
+
+    max-width: 1150px;
 }
 
 .service {
-    max-width: 1150px;
-    margin: 0 auto;
-    margin-bottom: 60px;
-}
-
-.service:nth-last-child(1) {
-    margin-bottom: 0;
+    position: relative;
+    width: calc(50% - 5px);
 }
 
 .service__image {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     max-width: 100%;
+    height: 388.03px;
+    object-fit: cover;
 }
 
 .service__title {
     margin-bottom: 0;
 }
 
+.service__label-wrapper {
+    position: absolute;
+    top: 31px;
+    left: 30px;
+}
+
+.service__label {
+    width: auto;
+    padding: 5px 22px 5px 20px;
+    font-size: 22px;
+    line-height: 30px;
+    background-color: #AD1818;
+    border-radius: 5px;
+}
+
+.services__btn {
+    width: 100%;
+    padding: 56px 0;
+    color: #FFFFFF;
+    background-color: #AD1818;
+    border-radius: 5px;
+    border: none;
+
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+
+    cursor: pointer;
+}
+
+.services__btn:hover {
+    background-color: #FFFFFF;
+    color: #AD1818;
+    border: 1px solid #AD1818;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+@media (max-width: 1199px) {
+    .services {
+        padding-bottom: 120px;    
+    }
+
+    .services__list {
+        margin-bottom: 80px;
+        row-gap: 80px;
+        max-width: 100%;     
+    }
+
+    .service__image {
+        margin-bottom: 15px;
+        width: 100%;
+        height: 315px;
+    }
+
+    .service__label-wrapper {
+        position: absolute;
+        top: 31px;
+        left: 32px;
+    }    
+
+    .service__label {
+        padding: 7px 26px 6px 27px;
+        font-size: 20px;
+        line-height: 27px;
+    }    
+}
+
+@media (max-width: 767px) {
+    .services {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .services__title {
+        margin-bottom: 20px;
+    }
+
+    .services__list {
+        margin-bottom: 60px;
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 60px;
+        max-width: 100%;     
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .service__image {
+        margin-bottom: 10px;
+        height: 240px;
+    }
+
+    .service__label-wrapper {
+        position: absolute;
+        top: 23px;
+        left: 24px;
+    }    
+
+    .service__label {
+        padding: 5px 23px 6px 24px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .services__btn {
+        padding: 36px 0;
+        font-size: 22px;
+        line-height: 28px;
+    }
+}

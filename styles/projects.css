@@ -11,8 +11,9 @@
     max-width: 1150px;
 }
 
-.project:nth-last-child(1) {
+.project:last-child {
     margin-bottom: 0;
+   
 }
 
 .project__image {

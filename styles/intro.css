@@ -47,6 +47,14 @@
     color: #FFFFFF;
 }
 
+.view-services-btn:hover {
+    background-color: #FFFFFF;
+    color: #AD1818;
+    border: 1px solid #AD1818;
+
+    transition: background-color 0.5s, color 0.5s;
+}
+
 @media (max-width: 1199px) {
     .intro__text {
         max-width: 802px;
