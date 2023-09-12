@@ -56,11 +56,12 @@
 
 .services__btn {
     width: 100%;
-    padding: 56px 0;
+    padding: 55px 0;
     color: #FFFFFF;
     background-color: #AD1818;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #AD1818;
+
 
     font-family: "Manrope", sans-serif;
     font-weight: 400;
@@ -147,7 +148,7 @@
     }
 
     .services__btn {
-        padding: 36px 0;
+        padding: 35px 0;
         font-size: 22px;
         line-height: 28px;
     }
