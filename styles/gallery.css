@@ -1,16 +1,39 @@
-.project-two-room {
-    max-width: 100%;
-    height: 717px;
-    margin: 0;
+.gallery {
     position: relative;
-
-    background-image: url(../resources/project-2room.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+    padding: 0;
 }
 
-.project-two-room__title {
+.gallery__title-wrapper {
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+}
+
+.gallery__title {
+    color: #FFF;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.gallery__slides {
+    height: 717px;
+}
+
+.gallery__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.gallery__slide_active {
+    opacity: 1;
+}
+
+.gallery__slide-title {
     position: absolute;
     left: 125px;
     bottom: 60px;
@@ -22,4 +45,58 @@
     line-height: 41px;
 
     white-space: pre-wrap;
+}
+
+
+.gallery__slide-content {
+    max-width: 100%;
+    height: 717px;
+    margin: 0;
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.slide-1 {
+    background-image: url(../resources/gallery-image-1.png);
+}
+
+.slide-2 {
+    background-image: url(../resources/gallery-image-2.png);
+}
+
+.slide-3 {
+    background-image: url(../resources/gallery-image-3.png);
+}
+
+.slide-4 {
+    background-image: url(../resources/gallery-image-4.png);
+}
+
+.gallery__controls-wrapper {
+ position: absolute;
+ bottom: 162px;
+ left: -10px;
+}
+
+.gallery__controls {
+    display: flex;
+    column-gap: 14px;
+}
+
+.gallery__control{
+    background: none;
+    outline: none;
+    border: none;
+    opacity: 0.5;
+}
+
+.gallery__control-next {
+    transform: rotate(180deg);
+}
+
+.gallery__control:hover {
+    opacity: 1;
 }
