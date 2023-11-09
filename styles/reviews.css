@@ -43,7 +43,7 @@
     }
     
     .review {
-        max-width: calc(50% - 5px);
+        max-width: calc(50% - 6px); /* -6px instead of -5px due to error in design in Figma*/
     }
     
     .review:last-child:nth-child(2n + 1) {
