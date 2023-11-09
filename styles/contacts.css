@@ -1,6 +1,7 @@
 .contacts {
     padding-top: 150px;
     padding-bottom: 150px;
+    transition: 0.3s;
 }
 
 .contacts-title{
@@ -22,6 +23,7 @@
     text-decoration: none;
 
     white-space: pre-wrap;
+    transition: 0.3s;
 }
 
 .tel::before {
@@ -50,7 +52,7 @@
     text-decoration: underline 2px;
     text-underline-offset: 15px;
     opacity: 0.5;
-
+    transition: 0.3s;
 }
 
 .mail::before {
