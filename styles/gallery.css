@@ -151,6 +151,7 @@
     .gallery__controls-wrapper {
         position: absolute;
         bottom: 152px;
+        margin-left: 0;
         padding-left: 26px;
     }
 
