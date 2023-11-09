@@ -134,6 +134,10 @@
         height: 240px;
     }
 
+    .service__title {
+        height: 24px;
+    }
+
     .service__label-wrapper {
         position: absolute;
         top: 23px;

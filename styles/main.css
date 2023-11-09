@@ -76,8 +76,7 @@ button {
 
     .container {
         width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px;
    }
 
    h1 {

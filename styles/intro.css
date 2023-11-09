@@ -30,6 +30,7 @@
 }
 
 .about-us p {
+    margin-left: 3px;
     margin-bottom: 30px;
     max-width: 1048px;
 
@@ -37,6 +38,8 @@
 
 .view-services-btn {
     display: inline-block;
+    width: 255px;
+    height: 67px;
     padding: 19px 39px;
     border-radius: 5px;
     text-decoration: none;
@@ -73,6 +76,7 @@
 
     .about-us p {
         max-width: 690px;
+        margin-left: 5px;
     }
 }
 
@@ -106,7 +110,9 @@
     }
 
     .view-services-btn {
-        padding: 14.21px 27.1px;
+        width: 194px;
+        height: 51px;
+        padding: 14.21px 26.41px;
         font-size: 16px;
         line-height: 22px;
         border-radius: 3.802px;

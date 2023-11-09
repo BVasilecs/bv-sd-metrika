@@ -15,6 +15,7 @@
 </head>
 <body>
 <!-- 
+     FOR NAV LINKS MAKE TEXT DECORATION WITH OFSET INSTEAD OF BORDER BOTTOM
     <header>
         <a class="logo-link" href="/">
             <img class="logo" src="resources/logo.png" alt="metrika-logo">
@@ -131,59 +132,77 @@
             <div class="gallery__slides">
                 <div class="gallery__slide gallery__slide_active">
                     <div class="gallery__slide-content slide-1">
-                            <p class="gallery__slide-title">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+                        <div class="gallery_slide-title-wrapper">
+                            <div class="container">
+                                <p class="gallery__slide-title">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+                            </div>    
+                        </div>
                     </div>
                 </div>
                 <div class="gallery__slide">
                     <div class="gallery__slide-content slide-2">
-                            <p class="gallery__slide-title">Проект гостиной в ЖК Маяк</p>    
+                        <div class="gallery_slide-title-wrapper">
+                            <div class="container">
+                                <p class="gallery__slide-title">Проект гостиной в ЖК Маяк</p>    
+                            </div>    
+                        </div>
                     </div>
                 </div>
                 <div class="gallery__slide">
                     <div class="gallery__slide-content slide-3">
-                            <p class="gallery__slide-title">Визуализация кухни-гостиной в частном доме</p>
+                        <div class="gallery_slide-title-wrapper">
+                            <div class="container">
+                                <p class="gallery__slide-title">Визуализация кухни-гостиной в частном доме</p>
+                            </div>      
+                        </div>
                     </div>
                 </div>
                 <div class="gallery__slide">
                     <div class="gallery__slide-content slide-4">
-                            <p class="gallery__slide-title">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p>
+                        <div class="gallery_slide-title-wrapper">
+                            <div class="container">
+                                <p class="gallery__slide-title">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p>
+                            </div>     
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="gallery__controls-wrapper">
-                <div class="gallery__controls">
-                    <button class="gallery__control gallery__control-prev">
-                        <img src="resources/arrow.svg" alt="arrow-back">
-                    </button>
-                    <button class="gallery__control gallery__control-next">
-                        <img src="resources/arrow.svg" alt="arrow-next">
-                    </button>
+                <div class="container">
+                    <div class="gallery__controls">
+                        <button class="gallery__control gallery__control-prev">
+                            <img src="resources/arrow.svg" alt="arrow-back">
+                        </button>
+                        <button class="gallery__control gallery__control-next">
+                            <img src="resources/arrow.svg" alt="arrow-next">
+                        </button>
+                    </div>    
                 </div>
             </div>
         </section>
-
-<!-- 
         <section id="contacts" class="contacts">
             <div class="container">
-                <div class="contacts-title-wrapper">
-                    <h2 class="contacts-title">Контакты</h2>
+                <h2 class="contacts-title">Контакты</h2>
+                <div class="contacts-wrapper">
+                    <a class="tel" href="tel:+79358954535">+7 935  895-45-35</a>
+                    <a class="mail" href="mailto:hello@mail.com">hello@mail.com</a>    
                 </div>
-                <a class="tel" href="tel:+79358954535">+7 935  895-45-35</a>
-                <a class="mail" href="mailto:hello@mail.com">hello@mail.com</a>    
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer-nav">
-            <a href="#about-us" class="footer-nav__link">О нас</a>
-            <a href="#projects" class="footer-nav__link">Проекты</a>
-            <a href="#services" class="footer-nav__link">Услуги</a>
-            <a href="#contacts" class="footer-nav__link">Контакты</a>
+        <div class="container">
+            <div class="footer-nav">
+                <a href="#about-us" class="footer-nav__link">О нас</a>
+                <a href="#projects" class="footer-nav__link">Проекты</a>
+                <a href="#services" class="footer-nav__link">Услуги</a>
+                <a href="#contacts" class="footer-nav__link">Контакты</a>
+            </div>
+            <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
         </div>
-        <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
     </footer>
- -->
 
     <script src="scripts/gallery.js"></script>
+    
 </body>
 </html>

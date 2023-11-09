@@ -8,16 +8,14 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 0 auto 87px auto;
-    
-    width: 450px;
-    height: 25px;
+
+    max-width: 450px;
     background-color: #121212;
 }
 
-.footer-nav__link {
-    width: auto;
-    height: auto;
+/* make nav__link as a block element with paddings */
 
+.footer-nav__link {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 25px;
@@ -38,4 +36,26 @@ footer {
     line-height: 27px;
     color: #FFFFFF;
     opacity: 0.5;
+}
+
+@media (max-width: 767px) {
+    footer {
+        padding-top: 30px;
+        padding-bottom: 26px;
+    }
+
+    .footer-nav {
+        margin: 0 35px 41px 34px;
+        max-width: 100%;    
+    }
+
+    .footer-nav__link {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .footer__title {
+        font-size: 13px;
+        line-height: 18px;
+    }
 }
