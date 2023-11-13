@@ -45,8 +45,8 @@ footer {
     }
 
     .footer-nav {
-        margin: 0 35px 41px 34px;
-        max-width: 100%;    
+        margin-bottom: 41px;
+        max-width: 280px;    
     }
 
     .footer-nav__link {
