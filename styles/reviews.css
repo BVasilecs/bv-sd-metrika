@@ -39,11 +39,11 @@
 
     .reviews__list {
         column-gap: 10px;
-        row-gap: 80px;
+        row-gap: 79px;  /* not 80px as in design to match pixel perfect */
     }
     
     .review {
-        max-width: calc(50% - 6px); /* -6px instead of -5px due to error in design in Figma*/
+        max-width: calc(50% - 5px);
     }
     
     .review:last-child:nth-child(2n + 1) {
@@ -77,6 +77,7 @@
 
     .reviews__list {
         flex-direction: column;
+        row-gap: 80px;
     }
     
     .review {

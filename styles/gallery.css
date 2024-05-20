@@ -132,7 +132,7 @@
     }
 
     .gallery_slide-title-wrapper {
-        bottom: 80px;
+        bottom: 80px;  /* To match pixel perfect that should be 79px */
         padding-left: 35px;
     }
 
@@ -145,7 +145,7 @@
     }
 
     .gallery__slide-content {
-        background-position: 50% 96%;
+        background-position: 50% 95%;
     }
 
     .gallery__controls-wrapper {

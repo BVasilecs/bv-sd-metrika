@@ -109,21 +109,20 @@
 
     .tel {
         font-size: 35px;
-        line-height: 45.621px;
+        line-height: 46px;
     }
 
     .tel::before {
         width: 18px;
         height: 18px;
         top: -38px;
-        left: -2px;
     }
 
     .mail {
         top: 0;
         left: 0;
         font-size: 35px;
-        line-height: 45.621px;
+        line-height: 46px;
         text-underline-offset: 10px;   
     }
 
@@ -131,6 +130,5 @@
         width: 18px;
         height: 18px;
         top: -38px;
-        left: 1px;
     }
 }
