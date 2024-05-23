@@ -101,7 +101,36 @@
                     </li>
                 </ul>
                 <!-- BUTTON BELOW HAS SOME STRANGE DEFAULT CSS RULES. NEED TO REVIEW BETTER -->
-                <button class="services__btn">Заказать услугу</button> 
+                <button class="services__btn js-popup__btn">Заказать услугу</button>
+                <div class="popup js-popup">
+                    <div class="popup__content js-popup__content">
+                        <h4 class="popup__title">Заказать услугу</h4>
+                        <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                        <form class="order__form">
+                            <input
+                                class="input order__input"
+                                type="text"
+                                name="name"
+                                placeholder="Имя"
+                            >
+                            <input
+                                class="input order__input"
+                                type="email"
+                                name="email"
+                                placeholder="Электронная почта"
+                            >
+                            <input
+                                class="input order__input"
+                                type="tel"
+                                name="phone"
+                                placeholder="Номер телефона"
+                        >
+                        </form>
+                        <button class="popup__send-btn">Отправить</button>
+                        <div class="popup__close-btn js-popup__close-btn"></div>
+                    </div>
+                </div>
+
             </div>
         </section>
         <section class="reviews">
@@ -134,7 +163,7 @@
                     <div class="gallery__slide-content slide-1">
                         <div class="gallery_slide-title-wrapper">
                             <div class="container">
-                                <p class="gallery__slide-title">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+                                <p class="gallery__slide-title">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
                             </div>    
                         </div>
                     </div>
@@ -203,6 +232,7 @@
     </footer>
 
     <script src="scripts/gallery.js"></script>
+    <script src="scripts/popup.js"></script>
     
 </body>
 </html>
