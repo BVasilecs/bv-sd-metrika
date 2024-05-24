@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-<!-- 
-     FOR NAV LINKS MAKE TEXT DECORATION WITH OFSET INSTEAD OF BORDER BOTTOM
+<!-- FOR NAV LINKS MAKE TEXT DECORATION WITH OFSET INSTEAD OF BORDER BOTTOM -->
     <header>
         <a class="logo-link" href="/">
             <img class="logo" src="resources/logo.png" alt="metrika-logo">
@@ -26,8 +25,27 @@
             <a href="#services" class="nav__link">Услуги</a>
             <a href="#contacts" class="nav__link">Контакты</a>
         </nav>
+        <button class="burger-btn js-burger-btn"></button>
+        <div class="burger js-burger">
+            <div class="burger__content">
+                <a class="burger-logo-link" href="/">
+                    <img class="burger-logo" src="resources/logo.png" alt="metrika-logo">
+                </a>
+                <nav class="burger-nav">
+                    <a href="#about-us" class="burger-nav__link">О нас</a>
+                    <a href="#projects" class="burger-nav__link">Проекты</a>
+                    <a href="#services" class="burger-nav__link">Услуги</a>
+                    <a href="#contacts" class="burger-nav__link">Контакты</a>
+                </nav>
+                <div class="burger__contacts js-burger__content">
+                    <p class="burger-contacts__title">для связи:</p>
+                    <a class="burger-tel" href="tel:+79358954535">+7 935  895-45-35</a>
+                    <a class="burger-mail" href="mailto:hello@mail.com">hello@mail.com</a> 
+                </div>
+            </div>
+        </div>
     </header>
- -->
+
     <main>
         <section class="intro">
             <div class="container">
@@ -233,6 +251,7 @@
 
     <script src="scripts/gallery.js"></script>
     <script src="scripts/popup.js"></script>
+    <script src="scripts/burger.js"></script>
     
 </body>
 </html>

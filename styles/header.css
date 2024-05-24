@@ -37,3 +37,20 @@ header {
 .nav__link:last-child {
     margin: 0; 
 }
+
+@media (max-width: 1199px) {
+    header {
+        padding: 32px 15px 73px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        padding: 31px 12px 60px 13px;
+    }
+
+    .logo {
+        max-width: 96px;
+    }
+
+}
