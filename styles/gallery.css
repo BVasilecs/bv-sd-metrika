@@ -83,8 +83,6 @@
     color: #F5F5F5;
     font-size: 30px;
     line-height: 41px;
-
-    white-space: pre-wrap;
 }
 
 .gallery__controls-wrapper {
@@ -137,7 +135,7 @@
     }
 
     .gallery__slide-title {
-        width: 377px;
+        width: 375px;
         height: 68px;
     
         font-size: 25px;
@@ -178,7 +176,7 @@
     }
 
     .gallery__slide-title {
-        width: 287px;
+        width: 285px;
         height: 52px;
     
         font-size: 19px;

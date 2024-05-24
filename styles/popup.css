@@ -15,7 +15,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3 ease;
+    transition: all 0.5s ease;
 }
 
 .popup_open {
@@ -27,8 +27,8 @@
     position: relative;
     width: 777px;
     max-height: 708px;
-    overflow-y: scroll;
-    padding: 94px 79px 86px 55px;
+    overflow-y: auto;
+    padding: 93px 79px 86px 55px;
     background-color: #fff;
     border-radius: 10px;
     color: #000;
@@ -92,7 +92,7 @@
 
 @media (max-width: 767px) {
     .popup {
-        padding: 10px 12px 10px 13px;
+        padding: 10px 7px 10px 7px;
     }
 
     .popup__content {
@@ -108,8 +108,8 @@
     }
 
     .popup__text {
-        margin: 0 auto 54px auto;
-        margin-bottom: 54px;
+        margin: 0 auto 56px auto;
+        margin-bottom: 56px;
         max-width: 209px;
         font-size: 14px;
         line-height: 19px;

@@ -1,0 +1,131 @@
+.burger {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.burger_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.burger-btn {
+    display: none;
+}
+
+.burger__content {
+    display: flex;
+    flex-direction: column;
+    width: 274px;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 30px;
+    background-color: #FFF;
+
+}
+
+.burger-logo-link {
+    margin-bottom: 50px;
+    width: 156px;
+    height: 26px;
+}
+
+.burger-logo {
+    display: block;
+    width: 100%;
+}
+
+.burger-nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.burger-nav__link {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 34px;
+    color: #121212;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.burger-nav__link:last-child {
+    margin-bottom: 0;
+}
+
+.burger__contacts {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.burger-contacts__title {
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.5;
+}
+
+.burger-tel {
+    font-size: 20px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.burger-mail {
+    font-size: 20px;
+    color: #121212;
+    text-decoration: none;
+}
+
+@media (max-width: 1199px) {
+    .nav {
+        display: none;
+    }
+
+    .burger-btn {
+        position: absolute;
+        top: 28px;
+        right: 15px;
+        z-index: 3;
+        display: block;
+        width: 50px;
+        height: 8px;
+        background-image: url("../resources/burger-menu.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-color: #FFF;
+        border: none;
+    }
+
+    .burger-btn_open {
+        top: 20px;
+        right: 20px;
+        width: 34px;
+        height: 34px;
+        background-image: url("../resources/cross.png");
+        background-size: contain;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .burger-btn {
+        top: 35px;
+        right: 12px;
+        width: 37px;
+        height: 7px;
+    }
+
+}

@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-<!-- 
-     FOR NAV LINKS MAKE TEXT DECORATION WITH OFSET INSTEAD OF BORDER BOTTOM
+<!-- FOR NAV LINKS MAKE TEXT DECORATION WITH OFSET INSTEAD OF BORDER BOTTOM -->
     <header>
         <a class="logo-link" href="/">
             <img class="logo" src="resources/logo.png" alt="metrika-logo">
@@ -26,8 +25,27 @@
             <a href="#services" class="nav__link">Услуги</a>
             <a href="#contacts" class="nav__link">Контакты</a>
         </nav>
+        <button class="burger-btn js-burger-btn"></button>
+        <div class="burger js-burger">
+            <div class="burger__content">
+                <a class="burger-logo-link" href="/">
+                    <img class="burger-logo" src="resources/logo.png" alt="metrika-logo">
+                </a>
+                <nav class="burger-nav">
+                    <a href="#about-us" class="burger-nav__link">О нас</a>
+                    <a href="#projects" class="burger-nav__link">Проекты</a>
+                    <a href="#services" class="burger-nav__link">Услуги</a>
+                    <a href="#contacts" class="burger-nav__link">Контакты</a>
+                </nav>
+                <div class="burger__contacts js-burger__content">
+                    <p class="burger-contacts__title">для связи:</p>
+                    <a class="burger-tel" href="tel:+79358954535">+7 935  895-45-35</a>
+                    <a class="burger-mail" href="mailto:hello@mail.com">hello@mail.com</a> 
+                </div>
+            </div>
+        </div>
     </header>
- -->
+
     <main>
         <section class="intro">
             <div class="container">
@@ -101,7 +119,36 @@
                     </li>
                 </ul>
                 <!-- BUTTON BELOW HAS SOME STRANGE DEFAULT CSS RULES. NEED TO REVIEW BETTER -->
-                <button class="services__btn">Заказать услугу</button> 
+                <button class="services__btn js-popup__btn">Заказать услугу</button>
+                <div class="popup js-popup">
+                    <div class="popup__content js-popup__content">
+                        <h4 class="popup__title">Заказать услугу</h4>
+                        <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                        <form class="order__form">
+                            <input
+                                class="input order__input"
+                                type="text"
+                                name="name"
+                                placeholder="Имя"
+                            >
+                            <input
+                                class="input order__input"
+                                type="email"
+                                name="email"
+                                placeholder="Электронная почта"
+                            >
+                            <input
+                                class="input order__input"
+                                type="tel"
+                                name="phone"
+                                placeholder="Номер телефона"
+                        >
+                        </form>
+                        <button class="popup__send-btn">Отправить</button>
+                        <div class="popup__close-btn js-popup__close-btn"></div>
+                    </div>
+                </div>
+
             </div>
         </section>
         <section class="reviews">
@@ -134,7 +181,7 @@
                     <div class="gallery__slide-content slide-1">
                         <div class="gallery_slide-title-wrapper">
                             <div class="container">
-                                <p class="gallery__slide-title">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+                                <p class="gallery__slide-title">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
                             </div>    
                         </div>
                     </div>
@@ -203,6 +250,8 @@
     </footer>
 
     <script src="scripts/gallery.js"></script>
+    <script src="scripts/popup.js"></script>
+    <script src="scripts/burger.js"></script>
     
 </body>
 </html>
