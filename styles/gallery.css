@@ -78,7 +78,7 @@
 }
 
 .gallery__slide-title {
-    width: 443px;
+    max-width: 443px;
     height: 82px;
     color: #F5F5F5;
     font-size: 30px;
@@ -135,7 +135,7 @@
     }
 
     .gallery__slide-title {
-        width: 375px;
+        max-width: 375px;
         height: 68px;
     
         font-size: 25px;
@@ -176,7 +176,7 @@
     }
 
     .gallery__slide-title {
-        width: 285px;
+        max-width: 285px;
         height: 52px;
     
         font-size: 19px;
